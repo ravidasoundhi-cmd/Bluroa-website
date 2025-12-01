@@ -1,0 +1,62 @@
+
+backend:
+  name: github
+  repo: "ravidasoundhi-cmd/Bluroa-website"
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "home"
+    label: "Home Page"
+    files:
+      - file: "content/home.json"
+        label: "Home Content"
+        name: "home"
+        fields:
+          - {label: "Hero Headline", name: "hero_headline", widget: "string"}
+          - {label: "Hero Subtext", name: "hero_subtext", widget: "text"}
+          - {label: "Hero Image", name: "hero_image", widget: "image"}
+          - {label: "Logo Image", name: "logo", widget: "image"}
+          - {label: "Hero CTA Text", name: "hero_cta_text", widget: "string"}
+          - {label: "Footer Text", name: "footer_text", widget: "string"}
+
+  - name: "story"
+    label: "Story Page"
+    files:
+      - file: "content/story.json"
+        label: "Story Content"
+        name: "story"
+        fields:
+          - {label: "Story Title", name: "title", widget: "string"}
+          - {label: "Story Text", name: "text", widget: "markdown"}
+          - {label: "Story Image", name: "image", widget: "image"}
+          - {label: "Story Link", name: "link", widget: "string"}
+
+  - name: "menu"
+    label: "Menu"
+    files:
+      - file: "content/menu.json"
+        label: "Menu Items"
+        name: "menu"
+        fields:
+          - {label: "Items", name: "items", widget: "list", fields: [
+                {label: "Name", name: "name", widget: "string"},
+                {label: "Description", name: "description", widget: "text"},
+                {label: "Price", name: "price", widget: "string"},
+                {label: "Photo", name: "photo", widget: "image"}
+            ]}
+
+  - name: "blog"
+    label: "Blog"
+    files:
+      - file: "content/blog.json"
+        label: "Blog Posts"
+        name: "blog"
+        fields:
+          - {label: "Posts", name: "posts", widget: "list", fields: [
+                {label: "Title", name: "title", widget: "string"},
+                {label: "Excerpt", name: "excerpt", widget: "text"},
+                {label: "Image", name: "image", widget: "image"}
+            ]}
