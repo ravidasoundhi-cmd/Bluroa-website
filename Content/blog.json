@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "title": "Mastering the Flat White at Home",
+      "excerpt": "The secret to that velvety texture? It's all in the milk temperature and pour technique.",
+      "image": "/images/blog1.jpg"
+    },
+    {
+      "title": "Why Greeks Drink Coffee Iced",
+      "excerpt": "Exploring the history of the Freddo Espresso and Freddo Cappuccino.",
+      "image": "/images/blog2.jpg"
+    }
+  ]
+}

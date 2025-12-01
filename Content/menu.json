@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "name": "Aegean Espresso",
+      "description": "Single origin, perfectly extracted.",
+      "price": "₹60",
+      "photo": "/images/espresso.jpg"
+    },
+    {
+      "name": "Santorini Cold Brew",
+      "description": "24-hour steep, incredibly smooth.",
+      "price": "₹90",
+      "photo": "/images/coldbrew.jpg"
+    },
+    {
+      "name": "Fira Latte",
+      "description": "Velvety steamed milk and a double shot.",
+      "price": "₹80",
+      "photo": "/images/latte.jpg"
+    },
+    {
+      "name": "Iced Cappuccino",
+      "description": "Lightly sweetened, crowned with foam.",
+      "price": "₹75",
+      "photo": "/images/icedcapp.jpg"
+    }
+  ]
+}
